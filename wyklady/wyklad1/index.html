@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Wykład 2: CSS + wstęp do JavaScript</title>
+
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  	<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="plugin/drawer/drawer.css" />
+    <link rel="stylesheet" href="plugin/pointer/pointer.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>Wykład 2: <p class = "fragment">Wstęp do CSS i JavaScript</p></h2> <br>
+					<p><h3>Krzysztof Grochot</h3></p> <br>
+          <p style ='vertical-align:text-bottom ;'>22.04.2021r.</p>
+        </section>
+					<section>
+					<section>
+					<h3>Plan wykładu cz. 1</h3>
+					<ol>
+						<li>Język CSS3 - co to takiego? </li>
+						<li>Block vs inline</li>
+						<li>Wybrane selektory CSS3</li>
+						<li>Wybrane atrybuty CSS3</li>
+						<li>Model pudełkowy</li>
+            <li>Flexbox vs grid</li>
+					</ol>		
+					</section>
+
+				<section>
+          <h3>Krótka ankieta!</h3>
+          <figure>
+          <img src=img/ankieta.png width = 20%>
+        </figure>
+          <a href="http://bit.ly/ankieta_wyklad2">http://bit.ly/ankieta_wyklad2</a>
+        </section>
+				
+				<!-- czesc pierwsza !--> 
+
+				<section>
+					<h2>CSS</h2>
+					<ul>
+						<li>Jest używany jako język do formatowania treści dokumentu <code>HTML</code></li>
+						<li class="fragment">Praktycznie niekończone możliwości formatowania treści dokumentów </li>
+						<li class="fragment"><code>CSS3</code>: eliminacja konieczności używania <code>JavaScript</code> do bardziej zaawansowanych efektów wizualnych</li>
+						<li class="fragment">Prosty w implementacji i nauce.</li>
+					</ul>
+				</section>
+
+
+
+				<section>
+      <h3>CSS3: Przykład użycia stylu</h3>
+      <a href="https://liveweave.com/Qo28SC">https://liveweave.com/Qo28SC</a>
+        <pre class="html"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+<html>
+<head>
+<body>
+    <header>
+        <h1>To jest jakiś przykładowy nagłówek</h1>
+    </header>
+    <main>
+        <article>
+            <div class="naglowek1">Nagłówek 1 </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+        </article>
+        <article>
+            <div class="naglowek2">Nagłówek 2 </div>
+            <div id="article2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </article>
+    </main>
+</body>
+</head>
+</html>
+        </script></code></pre>
+      </section>
+      <section>
+        <h3>CSS3: Przykład użycia stylu</h3>
+        <a href="https://liveweave.com/Qo28SC">https://liveweave.com/Qo28SC</a>
+        <pre class="css"><code class="hljs" data-trim data-line-numbers="|1-8|9-12|13-18|19-22|23-25">
+          h1 {
+            font-family: Cambria, Georgia, serif;
+            font-size: 30px;
+            color: #778899;
+            text-align: center;
+            border: 2px solid red;
+            background: yellow;
+          }
+          .naglowek1 {
+            font-weight: bold;
+            text-align: right;
+          }
+          .naglowek2 {
+            font-weight: bolder;
+            font-size: 20px;
+            color: red;
+            margin: 10px;
+          }
+          #article2 {
+            color: green;
+            text-align: justify;
+          }
+          article p {
+            text-align: center;
+          }
+                    
+        </code></pre>
+      </section>
+
+    <section>
+      <h3>Block vs inline</h3>
+      <a href="https://liveweave.com/eZTpWA">https://liveweave.com/eZTpWA</a>
+      <pre class="html"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation <span id = "znacznik">ullamco laboris nisi ut aliquip ex ea commodo consequat.</span> 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </script></code></pre>
+      <pre class="css"><code class="hljs" data-trim data-line-numbers>
+        p {
+          font-weight: bold;
+        }
+        #znacznik {
+          color: green;
+        }
+      </code></pre>
+    </section>
+
+    <section>
+      <section>
+        <h3>Selektory CSS</h3>
+        <a href="https://liveweave.com/pw6jBC">https://liveweave.com/pw6jBC</a>
+        <pre class="css"><code class="hljs" data-trim>
+          article p {
+            font-family: Arial;
+          }
+          article#first p {
+            font-size: small;
+          }
+          p.citation {
+            font-size: xx-small;
+            margin-left: 30px;
+          }
+        </code></pre>
+        <pre class="html"><code class="hljs" data-trim><script type="text/template">
+          <h1>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna.</h1>
+          <p>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna. Sed placerat faucibus.
+          Sed gravida gravida sollicitudin, lectus. Curabitur ut nulla. Nunc a lacus. Quisque eu bibendum arcu vitae odio.
+          Nullam viverra sem vestibulum quis, bibendum tellus, condimentum urna, id enim. Aliquam tempus ut, neque. Vestibulum
+          pulvinar. Nulla interdum dapibus eu, dapibus risus. Phasellus in lacus pretium sit amet elit. Pellentesque habitant
+          morbi tristique velit, vitae ornare enim dictum ut, tempus enim quis orci. Nullam vulputate molestie.
+          </p>
+          <article>
+            <h1>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna.</h1>
+            <p>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna. Sed placerat faucibus.
+            Sed gravida gravida sollicitudin, lectus. Curabitur ut nulla. Nunc a lacus. Quisque eu bibendum arcu vitae odio.
+            Nullam viverra sem vestibulum quis, bibendum tellus, condimentum urna, id enim. Aliquam tempus ut, neque. Vestibulum
+            pulvinar. Nulla interdum dapibus eu, dapibus risus. Phasellus in lacus pretium sit amet elit. Pellentesque habitant
+            morbi tristique velit, vitae ornare enim dictum ut, tempus enim quis orci. Nullam vulputate molestie.
+            </p>
+            <p>
+            Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna. Sed placerat faucibus.
+            Sed gravida gravida sollicitudin, lectus. Curabitur ut nulla. Nunc a lacus. Quisque eu bibendum arcu vitae odio.
+            Nullam viverra sem vestibulum quis, bibendum tellus, condimentum urna, id enim. Aliquam tempus ut, neque. Vestibulum
+            pulvinar. Nulla interdum dapibus eu, dapibus risus. Phasellus in lacus pretium sit amet elit. Pellentesque habitant
+            morbi tristique velit, vitae ornare enim dictum ut, tempus enim quis orci. Nullam vulputate molestie.
+            </p>
+          </article>
+          <article>
+            <h1>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna.</h1>
+            <p>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna. Sed placerat faucibus.
+            Sed gravida gravida sollicitudin, lectus. Curabitur ut nulla. Nunc a lacus. Quisque eu bibendum arcu vitae odio.
+            Nullam viverra sem vestibulum quis, bibendum tellus, condimentum urna, id enim. Aliquam tempus ut, neque. Vestibulum
+            pulvinar. Nulla interdum dapibus eu, dapibus risus. Phasellus in lacus pretium sit amet elit. Pellentesque habitant
+            morbi tristique velit, vitae ornare enim dictum ut, tempus enim quis orci. Nullam vulputate molestie.</p>
+            <p>Lorem ipsum dolor sit amet augue imperdiet faucibus non, tristique id, urna. Sed placerat faucibus.
+            Sed gravida gravida sollicitudin, lectus. Curabitur ut nulla. Nunc a lacus. Quisque eu bibendum arcu vitae odio.
+            Nullam viverra sem vestibulum quis, bibendum tellus, condimentum urna, id enim. Aliquam tempus ut, neque. Vestibulum
+            pulvinar. Nulla interdum dapibus eu, dapibus risus. Phasellus in lacus pretium sit amet elit. Pellentesque habitant
+            morbi tristique velit, vitae ornare enim dictum ut, tempus enim quis orci. Nullam vulputate molestie.</p>
+          </article>
+        </script></code></pre>
+      </section>
+
+      <section>
+        <h3>Przykłady</h3>
+        <ul class="more-text">
+          <li><code>.intro</code> - wszystkie elementy o klasie <code>intro</code>.</li>
+          <li><code>#firstname</code> - element o identyfikatorze <code>firstname</code>.</li>
+          <li><code>p</code> - wszystkie elementy typu <code>p</code> (paragraf).</li>
+          <li><code>p,div</code> - wszystkie elementy typu <code>p</code> oraz <code>div</code>.</li>
+          <li><code>div p</code> - wszystkie elementy <code>p</code> zawarte w elemencie <code>div</code> (nie
+            koniecznie bezpośrednio).
+          </li>
+          <li><code>div&gt;p</code> - wszystkie elementy <code>p</code> zawarte bezpośrednio w elemencie
+            <code>div</code>.
+          </li>
+        </ul>
+
+        <p class="most-text align-left">Więcej na: <a href="https://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a></p>
+        <p class="most-text align-left">Także: <a href="https://www.w3schools.com/cssref/trysel.asp">www.w3schools.com/cssref/trysel.asp</a></p>
+      </section>
+
+      <section>
+        <h3>Priorytety selektorów</h3>
+        <ol>
+          <li>Selektory typu (<code>&lt;h1&gt;</code>, <code>::before</code>).</li>
+          <li>Selektory klasy (<code>.example</code>, <code>&lt;p class=&quot;example&quot;&gt;&lt;&#47;p&gt;</code>.</li>
+          <li>Selektory ID (<code>#123</code>, <code>&lt;p id=&quot;123&quot;&gt;&lt;&#47;p&gt;</code>).</li>
+          <li>Style inline (<code>&lt;p style=&quot;font-size: large;&quot;&gt;&lt;&#47;p&gt;</code>).</li>
+          <li>Uwaga na selektor: &#9760; <code>!important</code> &#9760;</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Przydatne atrybuty</h3>
+        <ul>
+          <li class="fragment"><code style="color: blue;">color: blue;</code></li>
+          <li class="fragment"><code style="background-color: #ff00ff;">background-color: #ff00ff;</code></li>
+          <li class="fragment"><code style="border-color: rgba(255,100,100,0.5); border-width: 4px; border-style: solid;">border-color: rgba(255,100,100,0.5);</code></li>
+          <li class="fragment"><code style="text-align: center; width: 600px; display: inline-block;">text-align: center;</code></li>
+          <li class="fragment"><code style="text-decoration: underline;">text-decoration: underline;</code>
+          <li class="fragment"><code>display: none;</code></li>
+          <li class="fragment"><code>display: block-inline;</code></li>
+          <li class="fragment"><code>position: fixed;</code></li>
+        </ul>
+        <a class="fragment" href="https://www.w3schools.com/css">https://www.w3schools.com/css</a>
+      </section>
+    </section>
+
+    <section>
+      <h2>Model pudełkowy</h2>
+      <figure>
+        <img src="img/box-model.png" alt="Box model">
+      </figure>
+    </section>
+
+    <section>
+      <h2>Model pudełkowy</h2>
+      <a href="https://liveweave.com/02hPaP">https://liveweave.com/02hPaP</a>
+      <pre class="css"><code class="hljs" data-trim>
+        p {
+            padding: 10px 15px 20px 25px;
+            border-width: 7px 5px 3px 1px;
+            border-style: solid;
+            border-color: navy;
+            border-radius: 5px 10px 20px 30px;
+            background-color: #f0f0f0;
+            margin: 10px 20px
+        }
+        span {
+          border-width: 2px;
+          border-style: dotted;
+          border-color: brown;
+        }
+      </code></pre>
+      <pre class="html"><code class="hljs" data-trim><script type="text/template">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea <span>commodo</span> consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </script></code></pre>
+    </section>
+
+    <section>
+      <h2>Zarządzanie układem dokumentu HTML</h2>
+      <a href="https://liveweave.com/XgwT3e">https://liveweave.com/XgwT3e</a>
+      <div class="r-hstack">
+      <pre class="css"><code class="hljs" data-trim>
+        div {
+          padding: 20px;
+        }
+        div#first {
+          background-color: yellow;
+        }
+        div#second {
+          background-color: green;
+        }
+        div.col {
+          width: 40%;
+        }
+        div.left {
+          float: left;
+        }
+        div.right {
+          float: right
+        }
+      </code></pre>
+        <span>&nbsp;</span>
+      <pre class="html"><code class="hljs" data-trim><script type="text/template">
+        <div id='first'>
+        Foo
+        </div>
+        <div id='second'>
+        Bar
+        </div>
+      </script></code></pre>
+      </div>
+    </section>
+    <section>
+      <h3>Flexbox i zapytanie @Media</h3>
+      <div class="h flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div class="r-hstack">
+        <pre class="css"><code class="hljs" data-trim data-line-numbers>
+        .flex-container {
+          display: flex;
+          flex-direction: column;
+        }
+
+        @media (max-width: 900px) {
+          html {
+            flex-direction: row;
+          }
+        }
+        </code></pre>
+        <div class="v flex">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+        </div>
+      </div>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a>
+      <a href="https://css-tricks.com/a-complete-guide-to-css-media-queries/">https://css-tricks.com/a-complete-guide-to-css-media-queries/</a>
+    </section>
+    <section>
+      <h2>Źródła</h2>
+      <ul>
+        <li>Politechnika Wrocławska - Projektowanie i implementacja systemów webowych</li>
+        <li>http://css-tricks.com/</li>
+        <li>https://www.w3schools.com/</li>
+      </ul>
+
+    </section>
+
+       
+
+
+  </div>
+  <div
+      id="cgLogo"
+      style="background: url(img/logo_agh.png); position: absolute; bottom: 20px; left: 20px; width: 95px; height: 170px;">
+  </div>
+</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/drawer/drawer.js"></script>
+    <script src="plugin/pointer/pointer.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+        width: "80%",
+        height: "100%",
+        hash: true,
+        navigationMode: 'linear',
+        slideNumber: 'c/t',
+        pointer: {
+    key: "q", // key to enable pointer, default "q", not case-sensitive
+    color: "red", // color of a cursor, default "red" any valid CSS color
+    pointerSize: 12, // pointer size in px, default 12
+    alwaysVisible: false, // should pointer mode be always visible? default "false"
+    tailLength: 10, // NOT IMPLEMENTED YET!!! how long the "tail" should be? default 10
+    },
+    drawer: {
+    toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+    toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+    colors: ["#fa1e0e", "#8ac926", "#1982c4", "#ffca3a"], // (optional) list of colors avaiable (hex color codes)
+    color: "#FF0000", // (optional) color of a cursor, first color from `codes` is a default
+    pathSize: 4, // (optional) path size in px, default 4
+  },
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealDrawer, RevealPointer]
+    });
+		</script>
+	</body>
+</html>
