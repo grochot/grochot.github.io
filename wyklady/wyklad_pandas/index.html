@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Wykład: biblioteka Pandas</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown><textarea data-template>
+# Wykład: bilioteka Pandas
+### Krzysztof Grochot 
+grochot@agh.edu.pl 
+
+
+</textarea></section>
+		
+<section>
+	<h2>Plan wykładu</h2>
+	<p class="fragment" data-fragment-index="1">1. Co to właściwie takiego ten Pandas ? </p>
+	<p class="fragment" data-fragment-index="2">2. Krótkie omówienie biblioteki </p>
+	<p class="fragment" data-fragment-index="3">3. Pliki przechowujące dane: <span style ="color:red">.CSV</span>, <span style ="color:blue">.DAT</span> <span style ="color:darkgreen">JSON</span></p>
+	<p class="fragment" data-fragment-index="4">4. Analiza danych w Pandas -- przykład LIVE </p>
+</section>
+
+<section>
+	<img src="image/pobrane.png">
+	<p>https://forms.gle/TTaHDpeAs5jAd8tz7</p>
+</section>
+
+<section>
+	<h2>Co to właściwie takiego ten Pandas ?</h2>
+</section>
+
+
+<section>
+	<h2>Co to takiego ten Pandas ?</h2>
+	<img class="r-stretch" src="image/pandas.png", height = 200>
+	<p><b>Pandas </b> is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.<p>
+	<p align="right"><small>Wikipedia.pl</small></p>
+		<pre><code>
+#Instalacja biblioteki Pandas: 
+pip install pandas
+#Importowanie biblioteki Pandas:
+import pandas as pd
+		</code></pre>
+    
+  </section>
+
+  <section>
+	  <h2>Narzędzia do DataScience</h2>
+	  <img src ="https://python-programming.quantecon.org/_images/pandas_vs_rest.png">
+	  <p align="right"><small>Source: https://python-programming.quantecon.org/ </small></p>
+  </section>
+  
+  <section>
+	  <section>
+	<h2>Wspierane wersje Pythona</h2>
+	<p>Oficjalnie Python 3.7.x i wyższe oraz 3.8 i 3.9</p>
+	</section>
+	<section>
+		<h2>Obowiązkowe biblioteki</h2>
+		<table>
+			<tr>
+			<th>Biblioteka</th>
+			<th>Wersja</th>
+			</tr>
+			<tr>
+			<td>NumPy</td>
+			<td>1.17.3</td>
+			</tr>
+			<tr>
+			<td>python-dateutil</td>
+			<td>2.7.3</td>
+			</tr>
+			<tr>
+			<td>pytz</td>
+			<td>2017.3</td>
+			</tr>
+			</table>
+	</section>
+	<section>
+		<h2>Opcjonalne biblioteki</h2>
+		<table>
+			<tr>
+			<th>Biblioteka</th>
+			<th>Wersja</th>
+			</tr>
+			<tr>
+			<td>matplotlib</td>
+			<td>2.2.3</td>
+			</tr>
+			<tr>
+			<td>tabluate</td>
+			<td>0.8.7</td>
+			</tr>
+			<tr>
+			<td>SciPy</td>
+			<td>1.12.0</td>
+			</tr>
+			<tr>
+			<td>numba</td>
+			<td>0.46.0</td>
+			</tr>
+			<tr>
+			<td>openpyxl</td>
+			<td>3.0.0</td>	
+			</tr>
+			</table>
+	<p style="color: darkgreen;">i inne... </p>
+	</section>
+
+	<section>
+	<h2>Pandas obsługuje bardzo wiele typów danych, takich jak:</h2>
+	
+	<p class="fragment" data-fragment-index="1"> <ul type="c"> >> Dane tabelaryczne z kolumnami ( np. SQL, Excel)</p>
+	<p class="fragment" data-fragment-index="2"> >> Dane z szeregami czasowymi</p>
+		<p class="fragment" data-fragment-index="3"> >> Dane macierzowe z etykietami kolumn i wierszy</p>
+		<p class="fragment" data-fragment-index="4"> >> Inne zbiory danych obserwacyjnych</p>
+		<p class="fragment" data-fragment-index="5" style = "text-align:center; color: darkblue;">Dane nie muszą być opisane, aby zostać umieszczone w strukturach danych</p>
+	
+	</section>
+	
+	<section data-auto-animate >
+	<h2>Podstawowe typy danych</h2>
+	<h4 style="color:dodgerblue">DataFrame (2-wymiarowa)</h4>
+		<img src="image/01_table_dataframe.svg"> </p>
+		<p style = "font-style: italic; font-size:60%;">Dwywymiarowa etykietownana struktura danych z kolumnami o potencjalnie różnym typie.</p>
+	</section>
+	<section data-auto-animate>
+		<h2>Podstawowe typy danych</h2>
+		<h4 style="color:dodgerblue">Seria (1-wymiarowa)</h4> 
+			<img src="image/01_table_series.svg"> </p>
+			<p style = "font-style: italic; font-size:60%;">Jednowymiarowa lista przechowująca różne typy danych. </br> Każda kolumna w DataFrame jest jednocześnie Serią. </p>
+	</section>
+	
+	<section> 
+		<h2> Porównanie z Excelem</h2>
+	<table>
+		<tr>
+		<th>Pandas</th>
+		<th>Excel</th>
+		</tr>
+		<tr>
+		<td>DataFrame</td>
+		<td>Arkusz</tr>
+		</tr>
+		<tr>
+		<td>Series</td>
+		<td>Kolumna</td>
+		</tr>
+		<tr>
+		<td>Index</td>
+		<td>Nagłówek wiersza</td>
+		</tr>
+		<tr>
+		<td>Wiersz</td>
+		<td>Wiersz</td>
+		</tr>
+		<tr>
+		<td>NaN</td>
+		<td>pusta komórka</td>	
+		</tr>
+		</table>
+	</section>
+	
+	
+	<section>
+		<h2>Operacje na plikach</h2>
+		<img src="image/02_io_readwrite.svg" height="200"> </p>
+		<p>Wczytywanie danych do Pandas z pliku jest obsługiwane przez funkcję <span style = "color:dodgerblue">read_*</span></p>
+		
+	<pre class = "fragment"> 
+			<code data-line-numbers="1|2|3-4" data-trim data-noescape>
+import pandas as pd 
+data = pd.read_csv("sciezka/plik.csv", sep=",", header = 2 )
+data.info()
+data.head()
+			</code>
+		</pre>
+	<a href ="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html">Dokumentacja</a></p>
+	</section>
+
+	<section>
+		<h2>Operacje na plikach</h2>
+		<img src="image/02_io_readwrite.svg" height = "200"> </p>
+		<p>Zapisywanie danych do pliku jest obsługiwane przez funkcję <span style = "color:dodgerblue">to_*</span></p>
+		<pre class = "fragment">
+			<code data-trim data-noescape data-line-numbers="1|2|3-4" data-trim data-noescape>
+import pandas as pd 
+data = pd.to_csv("sciezka/plik.csv", sep=",", header = ["data", "wartość"])
+data.info()
+data.tail()
+			</code>
+		</pre>
+		<a href ="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html">Dokumentacja</a></p>
+	</section>
+
+
+
+
+	<section data-auto-animate>
+		<h2>Wybieranie fragmentu DataFrame</h2>
+		<img src = "https://pandas.pydata.org/docs/_images/03_subset_columns.svg" height="200">
+	</section>
+	<section data-auto-animate>
+		<h2>Wybieranie fragmentu DataFrame</h2>
+		<pre><code data-trim data-noescape data-line-numbers="1-5|7|8">
+			
+dane = pd.DataFrame(
+	{"Imie": ["Kasia", "Janek", "Franio", "Antek"], 
+	"Wiek": [4,2,3,], 
+	"Miasto":["Kraków", "Warszawa", "Gdańsk", "Wrocław"]
+})
+
+wiek  = dane["Wiek"] 
+new_data = dane[["Wiek", "Miasto"]]
+			  </code></pre>
+	</section>
+
+	<section data-auto-animate>
+		<h2>Jak filtrować dane z DataFrame </h2>
+		<img src = "https://pandas.pydata.org/docs/_images/03_subset_rows.svg"> 
+	</section>
+	<section data-auto-animate>
+		<h2>Jak filtrować dane z DataFrame? </h2>
+		<pre> 
+			<code data-trim data-noescape data-line-numbers="1-2|4-5|7"> 
+powyzej_2_lat = dane[dane["Wiek"]>2] 
+powyzej_2_lat.head() 
+
+wiek_2_4 = dane[dane["Wiek"].isin([2,4])]
+wiek_2_4 = dane[(dane["Wiek"] == 2) | (dane["Wiek"] == 4)]
+
+znany_wiek = dane[dane["Wiek"].notna()]
+
+			</code>
+		</pre>
+	</section>
+
+
+
+
+
+	<section data-auto-animate>
+		<h2>Jak wybrać wiersz i kolumnę z DataFrame?</h2>
+		<img src ="https://pandas.pydata.org/docs/_images/03_subset_columns_rows.svg">
+	</section>
+	<section data-auto-animate>
+		<h2>Jak wybrać wiersz i kolumnę z DataFrame?</h2>
+		<pre>
+			<code data-trim data-line-numbers="1-2|3-4|5-6|7-9">
+#Po nazwie
+	miasta_pow_2 = dane.loc[dane["Wiek"] > 2, "Miasto"]
+#Po połozeniu 
+	wybrane miasto = dane.iloc[2,1]
+#przeprowadzka
+	dane.iloc[2,2] = "Szczecin"
+#Konkretny element: 
+	dane.iat[1,0]
+	dane.at[1,"Miasto"]
+			</code>
+		</pre>
+
+	</section>
+
+
+	<section data-auto-animate> 
+		<h2> Wykresy w Pandas</h2>
+		<pre>
+			<code> 
+import pandas as pd 
+import matplotlib.pyplot as plt 
+			</code>
+		</pre>
+		</section>
+		<section data-auto-animate>
+			<h2> Wykresy w Pandas</h2>
+			<img src = "https://pandas.pydata.org/docs/_images/04_plot_overview.svg">
+			<pre>
+				<code data-trim data-noescape data-line-numbers="1|2|3|4|6"> 
+dane.plot() #wykres całego DataFrame
+dane["Wiek"].plot() #Wykres Series
+dane.plot.scatter(x="miasto", y="wiek", alpha=0.5)
+dane.plot.box()
+
+axs = dane.plot.area(figsize=(12, 4), subplots=True)
+
+				</code>
+			</pre>
+		</section>
+		
+		
+		<section data-auto-animate> 
+			<h2>Jak utworzyć nową kolumnę na podstawie istniejącej?</h2>
+			<img src = "https://pandas.pydata.org/docs/_images/05_newcolumn_1.svg" > 
+		</section>
+
+
+		<section data-auto-animate> 
+			<h2>Jak utworzyć nową kolumnę na podstawie istniejącej?</h2>
+			<pre> 
+				<code data-trim data-line-numbers="1|3-7"> 
+dane["wiek_za_10_lat"] = dane["Wiek"] + 10
+
+dane_zmienione_nazwy = dane.rename(
+	columns={
+            "Wiek": "Ile_lat",
+            "Miasto": "Miasteczko"
+             })
+				</code>
+			</pre>
+		</section>
+		
+		
+		
+		<section data-auto-animate> 
+			<h2> Jak wyświetlić informacje statytyczne?</h2>
+			<img src = "https://pandas.pydata.org/docs/_images/06_aggregate.svg"> 
+		</section>
+
+		<section data-auto-animate> 
+			<h2> Jak wyświetlić informacje statytyczne?</h2>
+			<pre> 
+				<code data-trim data-line-numbers="1-3|5-10|12-13">
+	data["Wiek"].mean()
+	data["Wiek"].median()
+	data["Wiek", "Cos tam"].describe()
+
+	dane.agg(
+         {
+             "Wiek": ["min", "max", "median", "skew"],
+             "Inna zmienna": ["min", "max", "median", "mean"],
+		 })
+	dane[["Miasto, "Wiek"]].groupby("Misto").mean()
+
+	dane.groupby("Miasto").mean()
+	dane.groupby("Wiek")["Miasto"].mean()
+				</code>
+			</pre>
+		</section>
+		
+		
+		
+		<section data-auto-animate>
+			<h2> Jak pokazać statystykę?</h2>
+			<img src = "https://pandas.pydata.org/docs/_images/06_groupby_select_detail.svg">
+			<pre>
+				<code data-trim data-line-numbers="1|3|4|5">
+dane[["Miasto", "Wiek"]].groupby("Miasto").mean()
+
+dane.groupby("Miasto").mean()
+dane.groupby("Miasto")["Wiek"].mean()
+dane.groupby(["Miasto", "Imię"])["Wiek"].mean()
+				</code>
+			</pre>
+			
+
+
+		</section>
+		<section>
+			<h2>Ilość rekordów w danej kategorii</h2>
+			<img src = "https://pandas.pydata.org/docs/_images/06_valuecounts.svg">
+			<pre>
+				<code data-trim data-line-numbers="1|2">
+dane["Wiek"].value_counts()
+dane.groupby("Wiek")["Wiek"].count()
+				</code>
+			</pre>
+			
+		</section>
+		
+		
+		<section>
+			<h2>Sortowanie</h2>
+		
+			<pre>
+				<code data-trim data-line-numbers="1-2|4|6-7|9|11-17|18">
+dane.sort_values(by="Wiek").head() 
+dane.sort_values(by=['Wiek', 'Punkty'], ascending=False).head()
+
+dane_wyciete = dane.sort_index().groupby(["Miasto"]).head(2)
+
+dane_wyciete.pivot(columns="Miasto", values="Wiek")
+dane.pivot(columns="Miasto", values="Wiek").plot()
+
+dane.pivot_table(values="Wiek", index="Miasto", columns="Imię", aggfunc="mean")
+
+dane.pivot_table(
+	values="Wiek",
+	index="Miasto",
+	columns="Imię",
+	aggfunc="mean",
+	margins=True,
+	)
+dane_zmienione = dane.pivot(columns="Miasto", values="Wiek").reset_index()
+
+
+				</code>
+			</pre>
+			
+		</section>
+		
+		<section>
+			<h2>Łączenie DataFrame</h2>
+			<pre>
+				<code data-trim data-line-numbers="1|2|3"> 
+nowy_data_frame = pd.concat([stary_dataframe_1, stary_dataframe_2], axis=0)
+nowy_data_frame_ = pd.concat([stary_dataframe_1, stary_dataframe_2], keys=["Wiek", "Miasto"])
+nowy_data_frame = pd.merge(stary_dataframe_1, stary_dataframe_2, how="left", on="Miasto")
+				</code>
+			</pre>
+		</section>
+		<section>
+			<h2>Przebiegi czasowe</h2>
+			<pre>
+				<code data-trim data-line-numbers="1-2|4-5|7|8|9|10"> 
+dane["miesiac"] = dane["datetime"].dt.month	
+dane.groupby([dane["datetime"].dt.weekday, "miasto"])["Wiek"].mean()
+
+fig, axs = plt.subplots(figsize=(12, 4))
+dane.groupby(dane["datetime"].dt.hour)["Wiek"].mean().plot(kind='bar', rot=0, ax=axs)
+
+nowe_dane = dane.pivot(index="datetime", columns="Miasto", values="Wiek")
+nowe_dane["2019-05-20":"2019-05-21"].plot();
+max_miesieczny= nowe_dane.resample("M").max()
+nowe_dane.resample("D").mean().plot(style="-o", figsize=(10, 5));
+				</code>
+			</pre>
+		</section>
+		<section>
+			<h2>Dane tekstowe</h2>
+			<pre>
+				<code data-trim data-line-numbers="1-2|3-4|6-7|9-11|13-14"> 
+dane["Imię"].str.lower()
+dane["Imię"].str.split(",")
+dane["Nazwisko"] = dane["Imię"].str.split(",").str.get(0)
+dane["Nazwisko"]
+
+dane["Imię"].str.contains("Wiek")
+dane[dane["Imię"].str.contains("Wiek")]
+
+dane["Imię"].str.len()
+dane["Imię"].str.len().idxmax()
+dane.loc[dane["Imię"].str.len().idxmax(), "Imię"]
+
+dane["Płeć skrót"] = dane["Płeć"].replace({"Kobieta": "K", "Mężczyzna": "M"})
+dane["Płeć skrót"]
+				</code>
+			</pre>
+		</section>
+		
+</section>
+<section>
+	<h2> Pliki z danymi: JSON</h2>
+<p>JSON(JavaScript Object Notation)</p>
+<p>Format pliu wymiany danych komputerowych niezalezny od konkretnego języka</p>
+<p>Bardzo częstwo wykorzystywany w językach typowo webowych np. JavaScript</p>
+<p>Natywnie wspierany w języku Python </p>
+<pre> 
+	<code> 
+		import json
+	</code>
+</pre>
+
+</section>
+<section> 
+	<h2> Pliki z danymi: JSON</h2>
+	<pre>
+		<code data-trim data-line-numbers="1|2-9|11-17|19-26"> 
+			my_json_string = """{
+				"article": [
+			 
+				   {
+					  "id":"01",
+					  "language": "JSON",
+					  "edition": "first",
+					  "author": "Derrick Mwiti"
+				   },
+			 
+				   {
+					  "id":"02",
+					  "language": "Python",
+					  "edition": "second",
+					  "author": "Derrick Mwiti"
+				   }
+				],
+			 
+				"blog":[
+				{
+					"name": "Datacamp",
+					"URL":"datacamp.com"
+				}
+				]
+			 }
+			 """
+		</code>
+	</pre>
+</section>
+<section> 
+	<h2>Pliki z danymi: JSON</h2>
+	<pre>
+		<code data-trim data-line-numbers="1-2|3-4"> 
+#Konwerowanie JSON na obiekt Pythona 
+to_python = json.loads(my_json_string) 
+#Konwertowanie obiektu na plik JSON
+to_json= json.dumps(blog)
+		</code>
+	</pre>
+</section>
+
+<section> 
+	<h2>Pliki z danymi: JSON</h2>
+	<pre>
+		<code data-trim data-line-numbers="1-3|4-7"> 
+#Zapisywanie pliku JSON
+with open('test_file.json', 'w') as file:
+	json.dump(my_json_string, file)
+#Wczytywanie pliku JSON
+with open('test_file.json', 'r') as j:
+	json_data = json.load(j)
+	print(json_data)
+		</code>
+	</pre>
+</section>
+<section> 
+	<h2>Pliki z danymi: .CSV</h2>
+	<p> ang. comma-separated values, wartości rozdzielone przecinkiem</p>
+	<pre>
+		<code data-trim data-line-numbers="1-5|8-15|17-21"> 
+import csv 
+#Przykła pliku CSV:
+Student, Jan, Kowalski, Kraków 
+Student, Marek, Nowak, Warszawa 
+Profesor, Jerzy, Kalita, Tarnów 
+
+import csv
+rows = []
+with open("uczestnicy.csv", 'r) as file:
+	csvreader = csv.reader(file)
+	header = next(csvreader)
+	for row in csvreader:
+		rows.append(row)
+		print(header)
+	print(rows)
+
+name_file = 'uczestnicy.csv'
+with open(filename, 'w', newline="") as file:
+	csvwriter = csv.writer(file) 
+	csvwriter.writerow(header) #zapisz nagłówek
+	csvwriter.writerows(data) #zapisz dane 
+		</code>
+	</pre>
+</section>
+<section> 
+	<h1 class="r-fit-text">Prezentacja z analizy danych</h1>
+	<img src = "https://ichi.pro/assets/images/max/724/1*9Q1rcr_peQdnGMwOYDBFhw.png">
+</section>
+<section> 
+	<h1 class="r-fit-text">Dziękuję za uwagę</h1>
+</section>
+<section>
+	<h2>Źródła:</h2>
+	<ul>
+		<li>https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf</li>
+		<li>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf</li>
+	</ul>
+</section>
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMarkdown ]
+			});
+		</script>
+	</body>
+</html>
