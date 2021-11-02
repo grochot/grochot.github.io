@@ -218,7 +218,7 @@ data.tail()
 			
 dane = pd.DataFrame(
 	{"Imie": ["Kasia", "Janek", "Franio", "Antek"], 
-	"Wiek": [4,2,3,], 
+	"Wiek": [4,2,3,6], 
 	"Miasto":["Kraków", "Warszawa", "Gdańsk", "Wrocław"]
 })
 
@@ -262,7 +262,7 @@ znany_wiek = dane[dane["Wiek"].notna()]
 #Po nazwie
 	miasta_pow_2 = dane.loc[dane["Wiek"] > 2, "Miasto"]
 #Po połozeniu 
-	wybrane miasto = dane.iloc[2,1]
+	wybrane miasto = dane.iloc[:,1]
 #przeprowadzka
 	dane.iloc[2,2] = "Szczecin"
 #Konkretny element: 
