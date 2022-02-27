@@ -5,7 +5,7 @@
 
 |1
 |2021-02-28
-|https://grochot.github.io/wyklady/wyklad_1/wyklad_1.html[Wykład organizacyjny, wprowadznie do Jupyter'a oraz Git'a]
+|https://grochot.github.io/wyklady/wyklad_1/wyklad_1.html[Wykład organizacyjny, wprowadznie do Git]
 |
 |
 
