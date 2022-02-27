@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>PiPO 2022 - wykład 1</title>
+
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  	<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="plugin/drawer/drawer.css" />
+    <link rel="stylesheet" href="plugin/pointer/pointer.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h3>Programowanie i Projektowanie obiektowe <p><span><h1>Podstawy Git</h1></span></p></h3> <br>
+					<p>Krzysztof Grochot<br>
+          <small>grochot.github.io</small><br></p>
+          <p style ='vertical-align:text-bottom ;'><small>28.02.2022r.</small></p>
+        </section>
+        <section>
+          <h2>Kurs na platformie UPEL</h2>
+          <img src="qr.png" style="height: 200px;"> <br>
+          pass: PiPO2022
+
+
+        </section>
+        <section>
+            <p><b>Git</b> to rozproszony system kontroli wersji stworzony przez Linusa Torvalds'a. Rozpowszechniony jako wolne oprogramowanie.</p>
+            <p class = "fragment">
+          <img src="git.png" alt="Good Parts" style="height: 200px;"></br>
+          Git jest narzędziem, dzięki któremu można kontrolować <b>zmiany w plikach</b>.</p>
+        </section>
+        <section>
+            <h2>Rozwiązanie bez CLI: klienta Git</h2>
+            <img src="dd.jpeg" alt="Good Parts" style="height: 200px;">
+            <p><a href = "https://desktop.github.com">GitHub Desktop</a></p>
+            <p><a href = "https://www.sourcetreeapp.com/">Sourcetree</a></p>
+            <p><a href = "https://www.gitkraken.com/">GitKraken</a></p>
+
+  
+        </section>
+        <section> 
+          <section>
+          <h2>Git CLI </h2>
+          <img src="git_cli.png" alt="Good Parts" style="height: 400px;">
+          <p><a href = "https://education.github.com/git-cheat-sheet-education.pdf">GitHub Cheat Sheet</a></p>
+        </section>
+          
+          <section> 
+            <p class = "fragment">Podczas zajęć będziemy korzystali z platformy GitHub </br>
+            <img src="classroom.png"  alt="Good Parts" style="height: 300px;"></p>
+            <p><a href = "https://www.classroom.github.com/">GitHub Classroom</a></p>
+          </section>
+        </section>
+
+
+        <section>
+        <section>
+          <h3>Podstawowe komendy Git</h3>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git clone #kolonowanie repozytorium </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git config -l #sprawdzenie konfiguracji repo </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git config --global -e #globalna konfiguracja </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git pull --rebase #aktualizacka repo </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git status #status zmian </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git add . #dodanie zmian do staging </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git commit -m "kometarz" #skomittowanie </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git log -p #skomittowanie </code></pre>
+
+</section>
+<section>
+<h3>Podstawowe komendy Git</h3>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git log --graph --pretty=format:"%h - %an, %ar: %s" </code></pre>
+
+<pre class="bash fragment"><code class="hljs" data-trim>
+git config --global alias.lp "log --graph
+--pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
+
+<pre class="bash fragment"><code class="hljs" data-trim>
+git config --global alias.lp "log --graph
+--pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git commit --amend </code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git reset --hard </code></pre>
+
+<pre class="bash fragment"><code class="hljs" data-trim>
+git push</code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git branch <branch name> </branch></code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git init <branch name> </branch></code></pre>
+<pre class="bash fragment"><code class="hljs" data-trim>
+git remote add origin [tu link] <branch name> </branch></code></pre>
+</section>
+</section>
+<section>
+  <h1>Prezentacja działania Git</h1>
+</section>
+
+<section>
+  <h3>JupyterLab</h3>
+  <img src = "share.png" style="height: 200px;"> 
+  <a href = "https://jupyter.org">JupyterLab.com</a> </br> 
+  <a href="https://colab.research.google.com/notebooks/welcome.ipynb?hl=pl">Google Colab</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div
+      id="cgLogo"
+      style="background: url(img/logo_agh.png); position: absolute; bottom: 20px; left: 20px; width: 95px; height: 170px;">
+  </div>
+</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/drawer/drawer.js"></script>
+    <script src="plugin/pointer/pointer.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+        width: "80%",
+        height: "100%",
+        hash: true,
+        navigationMode: 'linear',
+        slideNumber: 'c/t',
+        pointer: {
+    key: "q", // key to enable pointer, default "q", not case-sensitive
+    color: "red", // color of a cursor, default "red" any valid CSS color
+    pointerSize: 12, // pointer size in px, default 12
+    alwaysVisible: false, // should pointer mode be always visible? default "false"
+    tailLength: 10, // NOT IMPLEMENTED YET!!! how long the "tail" should be? default 10
+    },
+    drawer: {
+    toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+    toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+    colors: ["#fa1e0e", "#8ac926", "#1982c4", "#ffca3a"], // (optional) list of colors avaiable (hex color codes)
+    color: "#FF0000", // (optional) color of a cursor, first color from `codes` is a default
+    pathSize: 4, // (optional) path size in px, default 4
+  },
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealDrawer, RevealPointer]
+    });
+		</script>
+	</body>
+</html>

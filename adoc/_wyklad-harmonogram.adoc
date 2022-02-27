@@ -1,0 +1,58 @@
+.Harmonogram wykładów
+[cols="1,3,6,3,3"]
+|===
+|Lp.|Data|Temat|Transmisja|Uwagi
+
+|1
+|2021-02-28
+|https://grochot.github.io/wyklady/wyklad_1/wyklad_1.html[Wykład organizacyjny, wprowadznie do Jupyter'a oraz Git'a]
+|
+|
+
+|2
+|2021-03-14
+|https://grochot.github.io[Obliczenia numeryczne]
+|
+|
+
+|3
+|2021-03-21
+|https://grochot.github.io[Podstawy HTML5 i CSS]
+|
+|
+
+|4
+|2021-03-28
+|https://grochot.github.io[Wprowadzenie do JavaScript i TypeScript]
+|
+|
+
+|5
+|2021-04-11
+|https://grochot.github.io/wyklady/wyklad1.html[Wprowadzenie do JavaScript i TypeScript]
+|
+|
+|6
+|2021-04-25
+|https://grochot.github.io/wyklady/wyklad1.html[Wprowadzenie od PHP i MySQL]
+//|xref:6_reactive.adoc[]
+|
+|
+
+|7
+|2021-04-19
+|https://grochot.github.io[Wprowadzenie do PHP i MySQL]
+|
+|
+
+|8
+|2021-05-09
+|https://grochot.github.io[Testowanie aplikacji webowych i frameworki]
+|
+|
+|9
+|2021-05-16
+|https://grochot.github.io[Bezpieczeństwo aplikacji webowych]
+|
+|
+|===

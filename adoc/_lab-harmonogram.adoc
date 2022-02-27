@@ -1,0 +1,75 @@
+[cols="1,2,4,2"]
+|===
+|Lp|Data|Temat|Termin zaliczenia
+
+|1
+|2022-03-07
+|Algorytmy numeryczne I
+|
+
+|2
+|2022-03-14
+|Metoda Monte Carlo
+|Zadanie 1
+
+|3
+|2022-03-21
+|Aproksymacja i interpolacja
+|Zadanie 2
+
+|4
+|2022-03-28
+|Szyfrowanie  
+|Zadanie 3 
+
+|5
+|2022-04-04
+|HTML
+|Zadanie 4
+
+|6
+|2022-04-11
+|CSS
+|Zadanie 5
+
+|7
+|2022-04-25
+|Vanilla JS
+|Zadanie 6
+
+|8
+|2022-05-09
+|jQuery
+|Zadanie 7
+
+|9
+|2022-05-16
+|PHP I
+|Zadanie 8
+
+|10
+|2022-05-23
+|PHP II
+|Zadanie 9
+
+|11
+|2022-05-30
+|Cake PHP + Projekt -- omówienie
+|Zadanie 10
+
+|12
+|2022-06-06
+|Projekt
+|
+
+|13
+|2022-06-13
+|Projekt
+|
+
+|14
+|2022-06-20
+|Projekt
+|Zaliczenie całości projektu.
+
+|===

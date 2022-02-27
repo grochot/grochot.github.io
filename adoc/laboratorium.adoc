@@ -1,0 +1,72 @@
+= Języki Programowania i Algorytmy 
+mgr Krzysztof Grochot <grochot@agh.edu.pl>
+:icons: font
+:table-caption: Tabela
+:toc: left
+:toc-title: Spis treści
+
+xref:index.adoc[Powrót do strony głównej]
+
+== Organizacja zajęć
+
+Zajęcia laboratoryjne prowadzone są w formie stacjonarnej bez przerwy przez 1.5 h według opublikowanego harmonogramu. 
+
+== Konsultacje
+
+include::_konsultacje.adoc[]
+
+== Ocena
+
+* Ocena punktowa z laboratorium obliczana jest w oparciu o skalę punktową AGH. 
+* Ocenie podlegać będzie 10 zadań (realizowanych jako praca domowa) oraz zadanie projektowe (frontent i backend). 
+* Wszystkie zadania oceniane będą w skali punktowej 0-10 pkt. 
+* Ocena końcowa jest średnią ważoną ocen cząstkowych. Oceny za zadania mają wagę{nbsp}0.7, oceny z kolokwiów 0.3, oceny za etapy projektu mają wagę{nbsp}2.
+
+== Wymagania
+* Uczestnictwo w zajęciach laboratoryjnych jest nieobowiązkowe. 
+* Materiał z zajęć, na których student nie był obecny, musi zostać opanowany we własnym zakresie. 
+* Nieobecność na zajęciach nie zwalnia z oddania zadania. 
+* W przypadku nieusprawiedliwionej nieobecności studenta podczas kolokwium otrzymuje on 0 pkt.
+* Na zajęcia należy przygotować się poprzez zapoznanie się z materiałem z wykładów i z wcześniej zapowiedzianymi tematami zajęć.
+* Uwagi ogólne dotyczące zaliczeń:
+** W tabeli <<_harmonogram_zajęć_laboratoryjnych>> określono termin zaliczeń dla każdej z list zadań.
+** Zadania lub etap projektu oddane na następnych zajęciach po obowiązującym terminie są oceniane najwyżej na ocenę dostateczną (3.0), materiał oddany po tym czasie oceniany jest na ocenę 2.0{nbsp}(ndst).
+* Szczegółowe zasady dotyczące prac z listami zadań:
+** Listy zadań dostepne są pod następującym adresem: https://grochot.github.io/strona/index.html#_listy_zadań.
+** Na każdej liście zadań umieszczone są informacje, w jaki sposób rozwiązania zadań należy umieszczać w repozytorium GitHub.
+* Szczegółowe zasady dotyczące pracy z kodem podczas fazy projektowej:
+** Na zajęciach projektowych studenci tworzą 3--4 osobowe grupy, w ramach których realizować będą projekt.
+** Każda grupa projektowa powinna zgłosić prowadzącemu wybrany temat. Lista proponowanych tematów będzie opublikowana w połowie semestru. 
+** Każdy zespół projektowy zobowiązany jest do utworzenia repozytorium projektowego na portalu GitHub. Prowadzącemu zajęcia należy nadać prawa zapisu i odczytu do tego repozytorium.
+** Wszyscy członkowie zespołu zobowiązani są do wprowadzania zmian bezpośrednio do repozytorium zespołu.
+** Każdy członek zespołu zobowiązany jest utrzymywać repozytorium w stanie “zielonym” - CI po zmianach powinno być zielone, w przypadku wystąpienia błędów należy je niezwłocznie usuwać.
+** Podczas oddawania danego etapu zadania prowadzący sprawdza stan CI - niestabilne CI może być przyczyną niezaliczenia etapu.
+** Zmiany w repozytorium (kodzie aplikacji) powinny być odpowiednio i czytelnie komentowane (ang. `commit message`).
+** Zaimplementowany system powinien dać się uruchomić na dowolnym komputerze wyposażonym w system Microsoft Windows.
+
+Wpływ na ocenę będzie miało:
+
+* Spełnienie wymagań funkcjonalnych i niefunkcjonalnych.
+* Jakość rozwiązania – zarówno wewnętrzna jak i zewnętrzne.
+* Zastosowane narzędzia deweloperskie.
+
+WARNING: Kopiowanie prac innych studentów skutkuje automatycznie niezaliczeniem zajęć!
+
+== Harmonogram zajęć laboratoryjnych
+
+include::_lab-harmonogram.adoc[]
+
+// == Propozycje tematów projektów
+
+//Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem "Projekt i implementacja systemów webowych". Informację należy podać na 7-mych zajęciach (2021-04-19) i uzyskać akceptację prowadzącego.
+
+//Zakres każdego z projektów powinien obejmować realizację dwóch ekranów aplikacji webowej, interfejsu REST łączącego frontend i backend, dodatkowego interfejsu REST przeznaczonego do integracji z zewnętrznym systemem oraz warstwę utrwalania danych zrealizowaną np w oparciu o relacyjną bazę danych oraz mapowanie JPA.
+
+//Dashboard systemu inteligentnego domu:: Aplikacja prezentuje odczyty domowych mierników. Wartości odczytów przesyłane są do aplikacji za pośrednictwem interfejsu REST.
+// System sprzedaży biletów kinowych:: Aplikacja umożliwia rezerwację biletów na seans kinowy. System wystawia zewnętrzny interfejs REST umożliwiający elektroniczną weryfikację biletu.
+//Tablica ogłoszeń drobnych:: System umożliwia publikację ogłoszeń wraz z informacjami kontaktowymi. System publikuje interfejs REST pozwalający na przeszukiwanie ogłoszeń przez zewnętrzny system agregujący lub indeksujący. Nie ma konieczności integracji z żadnym systemem agregującym, interfejs może być dowolny.
+//Elektroniczny bilet miejski:: Użytkownik uzyskuje możliwość rejestracji w serwisie oraz wygenerowanie wirtualnego biletu umożliwiającego korzystanie z systemu transportu zbiorowego. System wystawia zewnętrzny interfejs pozwalający na walidację biletów przez kontrolera. Dla uproszczenia można przyjąć identyfikację z wykorzystaniem unikalnego identyfikatora UUID.
+
+'''
+
+xref:index.adoc[Powrót do strony głównej]
