@@ -76,7 +76,7 @@ git config -l #sprawdzenie konfiguracji repo </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
 git config --global -e #globalna konfiguracja </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git pull --rebase #aktualizacka repo </code></pre>
+git pull --rebase #aktualizacja repo </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
 git status #status zmian </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
@@ -84,7 +84,7 @@ git add . #dodanie zmian do staging </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
 git commit -m "kometarz" #skomittowanie </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git log -p #skomittowanie </code></pre>
+git log -p #wyświetlenie zmian </code></pre>
 
 </section>
 <section>
@@ -93,25 +93,21 @@ git log -p #skomittowanie </code></pre>
 git log --graph --pretty=format:"%h - %an, %ar: %s" </code></pre>
 
 <pre class="bash fragment"><code class="hljs" data-trim>
-git config --global alias.lp "log --graph
---pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
+git config --global alias.lp "log --graph --pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
 
 <pre class="bash fragment"><code class="hljs" data-trim>
-git config --global alias.lp "log --graph
---pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
+git commit --amend #odrzucenie ostatniego commita </code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git commit --amend </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git reset --hard </code></pre>
+git reset --hard #odrzucenie wszystkich zmian </code></pre>
 
 <pre class="bash fragment"><code class="hljs" data-trim>
-git push</code></pre>
+git push #wysłanie zmian na serwer</code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git branch <branch name> </branch></code></pre>
+git branch <branch name> #utworzenie nowego brancha </branch></code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git init <branch name> </branch></code></pre>
+git init <repo name> #utworzenie nowego repo lokalnego </branch></code></pre>
 <pre class="bash fragment"><code class="hljs" data-trim>
-git remote add origin [tu link] <branch name> </branch></code></pre>
+git remote add origin [tu link] <branch name>  </branch></code></pre>
 </section>
 </section>
 <section>
