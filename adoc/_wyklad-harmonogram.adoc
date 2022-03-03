@@ -10,10 +10,10 @@
 |
 
 |2
-|2021-03-14
+|2021-03-07
 |https://grochot.github.io[Obliczenia numeryczne]
 |
-|
+|M.Frankowski
 
 |3
 |2021-03-21
@@ -22,7 +22,7 @@
 |
 
 |4
-|2021-03-28
+|2021-04-04
 |https://grochot.github.io[Wprowadzenie do JavaScript i TypeScript]
 |
 |
@@ -40,18 +40,18 @@
 |
 
 |7
-|2021-04-19
+|2021-05-09
 |https://grochot.github.io[Wprowadzenie do PHP i MySQL]
 |
 |
 
 |8
-|2021-05-09
+|2021-05-16
 |https://grochot.github.io[Testowanie aplikacji webowych i frameworki]
 |
 |
 |9
-|2021-05-16
+|2021-05-23
 |https://grochot.github.io[Bezpieczeństwo aplikacji webowych]
 |
 |

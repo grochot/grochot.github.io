@@ -1,5 +1,5 @@
-= Języki Programowania i Algorytmy
-:release-tag: 2022.02.28
+= Programowanie i Projektowanie obiektowe
+:release-tag: 2022.03.02
 :toc: left
 :toc-title: Spis treści
 :table-caption: Tabela
