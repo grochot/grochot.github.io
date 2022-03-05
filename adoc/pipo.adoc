@@ -1,0 +1,68 @@
+= Programowanie i projektowanie obiektowe
+:release-tag: 2022.03.02
+:toc: left
+:toc-title: Spis treści
+:table-caption: Tabela
+:icons: font
+
+Strona internetowa zawierająca materiały do wykładów i zajęć laboratoryjnych. 
+
+*Semestr letni 2021/2022*
+
+== Konsultacje
+
+include::_konsultacje.adoc[]
+
+== Wykład
+
+=== Komunikacja
+
+Komunikacja w grupie wykładowej odbywać się będzie poprzez kanał na platformie Gitter dla grupy wykładowej 2021/2022. Link do kanału znajduje się poniżej: 
+image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/JPAI2022/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link]
+
+Co do zasady wykłady w semestrze letnim prowadzone będą w *sposób stacjonarny*. Dodatkowo, każdy z wykładów będzie transmitowany na żywo na platformie UPEL. 
+
+Strona kursu na platformie UPEL: 
+
+https://upel2.cel.agh.edu.pl/wh/course/view.php?id=333
+
+Sylabus zajęć: 
+
+https://sylabusy.agh.edu.pl/pl/document/05d857b3-664f-43d1-8d70-0d073e7cb9b0.pdf 
+
+
+
+=== Harmonogram
+
+Wykłady odbywają się w poniedziałki o godzinie 12.50 - 14.20 w sali 501 bud. C3
+
+TIP: Linki do transmisji wykładu będą publikowane najpóźniej w dniu wykładu. 
+
+include::_wyklad-harmonogram.adoc[]
+
+=== Bibliografia
+
+include::_wyklad-bibliografia.adoc[leveloffset=+2]
+
+== Laboratorium
+
+xref:laboratorium.adoc[Zasady zaliczenia zajęć]
+
+=== Grupy laboratoryjne
+
+[cols="1,1,1"]
+|===
+|Godzina||Informacje
+
+|Poniedziałek, 14:40-16:10|
+|image:http://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|Poniedziałek, 16:15-17:45|
+|image:http://badges.gitter.im/pwr-piisw/lab2021mnowak.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|Poniedziałek, 17:50-19:20|
+|image:http://badges.gitter.im/pwr-piisw/lab2021sjasniak.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|===
+
+

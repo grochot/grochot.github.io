@@ -1,4 +1,4 @@
-= Programowanie i Projektowanie obiektowe
+= Krzysztof Grochot 
 :release-tag: 2022.03.02
 :toc: left
 :toc-title: Spis treści
@@ -13,69 +13,12 @@ Strona internetowa zawierająca materiały do wykładów i zajęć laboratoryjny
 
 include::_konsultacje.adoc[]
 
-== Wykład
+== Przemioty prowadzone w semestrze letnim 2021/2022 
 
-=== Komunikacja
+=== Programowanie i projektowanie obiektowe 
 
-Komunikacja w grupie wykładowej odbywać się będzie poprzez kanał na platformie Gitter dla grupy wykładowej 2021/2022. Link do kanału znajduje się poniżej: 
-image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/JPAI2022/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link]
+xref:pipo.adoc[Strona przedmiotu]
 
-Co do zasady wykłady w semestrze letnim prowadzone będą w *sposób stacjonarny*. Dodatkowo, każdy z wykładów będzie transmitowany na żywo na platformie UPEL. 
+=== WWW i języki skryptowe
 
-Strona kursu na platformie UPEL: 
-
-https://upel2.cel.agh.edu.pl/wh/course/view.php?id=333
-
-Sylabus zajęć: 
-
-https://sylabusy.agh.edu.pl/pl/document/05d857b3-664f-43d1-8d70-0d073e7cb9b0.pdf 
-
-
-
-=== Harmonogram
-
-Wykłady odbywają się w poniedziałki o godzinie 12.50 - 14.20 w sali 501 bud. C3
-
-TIP: Linki do transmisji wykładu będą publikowane najpóźniej w dniu wykładu. 
-
-include::_wyklad-harmonogram.adoc[]
-
-=== Bibliografia
-
-include::_wyklad-bibliografia.adoc[leveloffset=+2]
-
-== Laboratorium
-
-xref:laboratorium.adoc[Zasady zaliczenia zajęć]
-
-=== Grupy laboratoryjne
-
-[cols="1,1,1"]
-|===
-|Godzina||Informacje
-
-|Poniedziałek, 14:40-16:10|
-|image:http://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
-
-|Poniedziałek, 16:15-17:45|
-|image:http://badges.gitter.im/pwr-piisw/lab2021mnowak.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
-
-|Poniedziałek, 17:50-19:20|
-|image:http://badges.gitter.im/pwr-piisw/lab2021sjasniak.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
-
-|===
-
-//=== Listy zadań
-
-[horizontal]
-// https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_0.pdf[Lista 0]:: 2021-03-01
-// https://github.com/pwr-piisw/materialy/releases/download/2021.03.04/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-14)
-// https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-21)
-// https://github.com/pwr-piisw/materialy/releases/download/2021.03.14/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
-// https://github.com/pwr-piisw/materialy/releases/download/2021.03.15/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-11)
-// https://github.com/pwr-piisw/materialy/releases/download/2021.03.21/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-18)
-
-
-// === Bibliografia
-
-// include::_lab-bibliografia.adoc[leveloffset=+2]
+xref:www.adoc[Strona przedmiotu]

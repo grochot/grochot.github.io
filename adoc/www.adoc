@@ -1,0 +1,40 @@
+= WWW i języki skryptowe
+:release-tag: 2022.03.02
+:toc: left
+:toc-title: Spis treści
+:table-caption: Tabela
+:icons: font
+
+Strona internetowa zawierająca materiały do wykładów i zajęć laboratoryjnych. 
+
+*Semestr letni 2021/2022*
+
+== Konsultacje
+
+include::_konsultacje.adoc[]
+
+== Seminarium
+
+=== Tematy seminarium
+
+=== Harmonogram
+
+include::_seminarium-harmonogram.adoc[]
+
+=== Grupy seminaryjne
+
+[cols="1,1,1"]
+|===
+|Godzina||Informacje
+
+|Wtorek, 14:40-16:10|
+|image:http://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|Poniedziałek, 16:15-17:45|
+|image:http://badges.gitter.im/pwr-piisw/lab2021mnowak.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|Poniedziałek, 17:50-19:20|
+|image:http://badges.gitter.im/pwr-piisw/lab2021sjasniak.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+
+|===
+

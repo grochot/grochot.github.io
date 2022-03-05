@@ -29,13 +29,13 @@
 
 |5
 |2021-04-11
-|https://grochot.github.io/wyklady/wyklad1.html[Wprowadzenie do JavaScript i TypeScript]
+|https://grochot.github.io[Wprowadzenie do JavaScript i TypeScript]
 |
 |
+
 |6
 |2021-04-25
-|https://grochot.github.io/wyklady/wyklad1.html[Wprowadzenie od PHP i MySQL]
-//|xref:6_reactive.adoc[]
+|https://grochot.github.io[Wprowadzenie od PHP i MySQL]
 |
 |
 

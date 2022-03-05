@@ -1,4 +1,4 @@
-= Języki Programowania i Algorytmy 
+= Programowanie i projektowanie obiektowe
 mgr Krzysztof Grochot <grochot@agh.edu.pl>
 :icons: font
 :table-caption: Tabela

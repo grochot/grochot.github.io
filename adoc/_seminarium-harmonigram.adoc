@@ -1,0 +1,46 @@
+.Harmonogram wykładów
+[cols="1,3,5,8"]
+|===
+|Lp.|Data|Temat|Uwagi
+
+|1
+|2021-03-07
+|https://grochot.github.io/wyklady/wyklad_1/wyklad_1.html[Semianrium organizacyjne]
+|
+
+|2
+|2021-03-21
+|https://grochot.github.io[Technologie Webowe]
+|
+
+|3
+|2021-04-04
+|https://grochot.github.io[Przyszłość i trendy aplikacji sieciowych]
+|
+
+
+|4
+|2021-04-25
+|https://grochot.github.io[Języki skryptowe]
+|
+
+
+|5
+|2021-05-09
+|https://grochot.github.io[Nowoczesne architektury sieciowe]
+|
+
+
+|6
+|2021-05-23
+|https://grochot.github.io[Omówienie wybranych frameworków]
+|
+|
+
+|7
+|2021-06-06
+|https://grochot.github.io[Bezpieczeństwo aplikacji sieciowych]
+|
+
+
+|===
