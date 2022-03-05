@@ -65,7 +65,7 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 
 |===
 
-=== Listy zadań
+//=== Listy zadań
 
 [horizontal]
 // https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_0.pdf[Lista 0]:: 2021-03-01
