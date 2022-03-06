@@ -26,7 +26,7 @@
 			<div class="slides">
 				<section><h3>WWW i języki skryptowe <p><span><h1>Seminarium 1</h1></span></p></h3> <br>
 					<p>Krzysztof Grochot<br>
-          <small>grochot.github.io/www/</small><br></p>
+          <small>grochot.github.io/</small><br></p>
           <p style ='vertical-align:text-bottom ;'><small>07.03.2022r.</small></p>
         </section>
         
@@ -44,109 +44,78 @@
 
         <p class = "fragment"> Średnia arytmetyczna </p>
         </section>
+
+        <section>
+          <section>
+         <h2>Zasady oceniania</h2>
+          </section>
+          <section>
+            <h2>Oceniana będzie:</h2>
+
+            <p class = "fragment"> aktywność w dyskusjach (i poziom przygotowania z tematu) </p> 
+            <p class = "fragment"> oraz <br> prezentacja </p> 
+
+          </section>
+        </section>
         
         <section>
+          <section>
             <h2>Tematyka seminariów</h2>
 
             <ol>
-              <li>Zajęcia organizacyjne</li>
-              <li>Technologie Webowe</li>
-              <li>Przyszłość i trendy aplikacji sieciowych</li>
-              <li>Języki skryptowe</li>
-              <li>Nowoczesne architektury sieciowe</li>
-              <li>Omówienie wybranych frameworków</li>
-              <li>Bezpieczeństwo aplikacji sieciowych</li>
+              <li class="fragment highlight-red">Zajęcia organizacyjne</li>
+              <li>Technologie Webowe <span class="fragment" style="color:green;">(frontend, backend)</span></li>
+              <li>Przyszłość i trendy aplikacji sieciowych <span class="fragment" style="color:green;">(chmura, AWS, OpenStack)</span></li>
+              <li>Języki skryptowe <span class="fragment" style="color:green;"> (Python, Django, Flask, Pylons)</span></li>
+              <li>Nowoczesne architektury sieciowe<span class="fragment" style="color:green;"> (Mikroserwis vs monolit)</span></li>
+              <li>Omówienie wybranych frameworków<span class="fragment" style="color:green;"> (React.js, Angular, Vue.js, Electron)</span></li>
+              <li>Bezpieczeństwo aplikacji sieciowych <span class="fragment" style="color:green;">(Co robić po włamie?, debata?)</span> </li>
             </ol>
-            
+            </section>
+            <section>
+              <h2>
+                Prezentacja
+              </h2>
+              <ul>
+                <li class = "fragment">Grupy 2-osobowe, kazda prowadzi fragment prezentacji</li>
+                <li class = "fragment">Czas trwania 20-25 min </li>
+                <li class = "fragment">Po kazdej prezentacji 20 min dyskusja</li>
+                <li class = "fragment">3 pytania od prezenterów</li>
+                <li class = "fragment">3 pytania ode mnie</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Technologie webowe</h2>
+              <ol>
+                <li>Frontend -  <span class="fragment" style="color:green;"> Vanilla JS oraz HTML5</span></li>
+                <li>Backend -   <span class="fragment" style="color:green;">Node.js oraz PHP</span></li>
+              </ol>
+
+            </section>
+            <section>
+              <ol>
+              <li> https://www.w3schools.com/nodejs/default.asp </li>
+               <li>https://nodejs.dev/learn/introduction-to-nodejs </li>
+              <li>https://www.w3schools.com/js/default.asp </li>
+              <li> https://developer.mozilla.org/en-US/docs/Web/JavaScript </li>
+              <li>https://html.spec.whatwg.org/multipage/ </li>
+              <li>https://www.php.net/manual/en/ </li>
+            </ol>
+            </section>
 
         </section>
-       
-
-
         <section>
-            <h2>Rozwiązanie bez CLI: klienta Git</h2>
-            <img src="dd.jpeg" alt="Good Parts" style="height: 200px;">
-            <p><a href = "https://desktop.github.com">GitHub Desktop</a></p>
-            <p><a href = "https://www.sourcetreeapp.com/">Sourcetree</a></p>
-            <p><a href = "https://www.gitkraken.com/">GitKraken</a></p>
-
-  
-        </section>
-        <section> 
-          <section>
-          <h2>Git CLI </h2>
-          <img src="git_cli.png" alt="Good Parts" style="height: 400px;">
-          <p><a href = "https://education.github.com/git-cheat-sheet-education.pdf">GitHub Cheat Sheet</a></p>
-        </section>
-          
-          <section> 
-            <p class = "fragment">Podczas zajęć będziemy korzystali z platformy GitHub </br>
-            <img src="classroom.png"  alt="Good Parts" style="height: 300px;"></p>
-            <p><a href = "https://www.classroom.github.com/">GitHub Classroom</a></p>
-          </section>
-        </section>
-
-
-        <section>
-        <section>
-          <h3>Podstawowe komendy Git</h3>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git clone #kolonowanie repozytorium </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git config -l #sprawdzenie konfiguracji repo </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git config --global -e #globalna konfiguracja </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git pull --rebase #aktualizacja repo </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git status #status zmian </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git add . #dodanie zmian do staging </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git commit -m "kometarz" #skomittowanie </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git log -p #wyświetlenie zmian </code></pre>
-
-</section>
-<section>
-<h3>Podstawowe komendy Git</h3>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git log --graph --pretty=format:"%h - %an, %ar: %s" </code></pre>
-
-<pre class="bash fragment"><code class="hljs" data-trim>
-git config --global alias.lp "log --graph --pretty=format:\"%h - %an, %ar: %s\"" </code></pre>
-
-<pre class="bash fragment"><code class="hljs" data-trim>
-git commit --amend #odrzucenie ostatniego commita </code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git reset --hard #odrzucenie wszystkich zmian </code></pre>
-
-<pre class="bash fragment"><code class="hljs" data-trim>
-git push #wysłanie zmian na serwer</code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git branch <branch name> #utworzenie nowego brancha </branch></code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git init <repo name> #utworzenie nowego repo lokalnego </branch></code></pre>
-<pre class="bash fragment"><code class="hljs" data-trim>
-git remote add origin [tu link] <branch name>  </branch></code></pre>
-</section>
-</section>
-<section>
-  <h1>Prezentacja działania Git</h1>
-</section>
-
-<section>
-  <h3>JupyterLab</h3>
-  <img src = "share.png" style="height: 200px;"> </br>
-  <a href = "https://jupyter.org">JupyterLab.com</a> </br> 
-  <a href="https://colab.research.google.com/notebooks/welcome.ipynb?hl=pl">Google Colab</a>
-</section>
-
-
-
-
-
-
+        <h1>Aplikacje webowe <span class="fragment" style="color:blue;"> - co to takiego?</span></h1>
+       </section>
+       <section>
+        <h1>Aplikacje webowe <span class="fragment" style="color:blue;"> - przyszłość czy chwilowa moda?</span></h1>
+       </section>
+       <section>
+        <h1>Aplikacje webowe <span class="fragment" style="color:green;">- jakie mają zalety?</span></h1>
+       </section>
+       <section>
+         <h1>Aplikacje webowe <span class="fragment" style="color:red;">- jakie mają wady?</span></h1>
+       </section>
 
 
 
