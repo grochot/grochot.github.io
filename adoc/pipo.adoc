@@ -18,7 +18,7 @@ include::_konsultacje.adoc[]
 === Komunikacja
 
 Komunikacja w grupie wykładowej odbywać się będzie poprzez kanał na platformie Gitter dla grupy wykładowej 2021/2022. Link do kanału znajduje się poniżej: 
-image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/JPAI2022/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link]
+image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link]
 
 Co do zasady wykłady w semestrze letnim prowadzone będą w *sposób stacjonarny*. Dodatkowo, każdy z wykładów będzie transmitowany na żywo na platformie UPEL. 
 
@@ -55,14 +55,12 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 |Godzina||Informacje
 
 |Poniedziałek, 14:40-16:10|
-|image:http://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+|image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
 |Poniedziałek, 16:15-17:45|
-|image:http://badges.gitter.im/pwr-piisw/lab2021mnowak.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+|image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
 |Poniedziałek, 17:50-19:20|
-|image:http://badges.gitter.im/pwr-piisw/lab2021sjasniak.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
+|image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
 |===
-
-

@@ -1,11 +1,11 @@
-.Harmonogram wykładów
-[cols="1,3,5,8"]
+.Harmonogram zajęć seminaryjnych
+[cols="1,3,5,2"]
 |===
 |Lp.|Data|Temat|Uwagi
 
 |1
 |2021-03-07
-|https://grochot.github.io/wyklady/wyklad_1/wyklad_1.html[Semianrium organizacyjne]
+|https://grochot.github.io/www/sem1/sem1.html[Seminarium organizacyjne]
 |
 
 |2
@@ -35,12 +35,11 @@
 |2021-05-23
 |https://grochot.github.io[Omówienie wybranych frameworków]
 |
-|
+
 
 |7
 |2021-06-06
 |https://grochot.github.io[Bezpieczeństwo aplikacji sieciowych]
 |
-
 
 |===
