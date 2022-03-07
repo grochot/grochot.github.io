@@ -10,36 +10,36 @@
 
 |2
 |2021-03-21
-|https://grochot.github.io[Technologie Webowe]
+|Technologie Webowe
 |
 
 |3
 |2021-04-04
-|https://grochot.github.io[Przyszłość i trendy aplikacji sieciowych]
+|Przyszłość i trendy aplikacji sieciowych
 |
 
 
 |4
 |2021-04-25
-|https://grochot.github.io[Języki skryptowe]
+|Języki skryptowe
 |
 
 
 |5
 |2021-05-09
-|https://grochot.github.io[Nowoczesne architektury sieciowe]
+|Nowoczesne architektury sieciowe
 |
 
 
 |6
 |2021-05-23
-|https://grochot.github.io[Omówienie wybranych frameworków]
+|Omówienie wybranych frameworków
 |
 
 
 |7
 |2021-06-06
-|https://grochot.github.io[Bezpieczeństwo aplikacji sieciowych]
+|Bezpieczeństwo aplikacji sieciowych
 |
 
 |===
