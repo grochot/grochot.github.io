@@ -4,41 +4,41 @@
 |Lp.|Data|Temat|Uwagi
 
 |1
-|2021-03-07
+|2022-03-08
 |https://grochot.github.io/www/sem1/sem1.html[Seminarium organizacyjne]
 |
 
 |2
-|2021-03-21
+|2022-03-22
 |Technologie Webowe
 |
 
 |3
-|2021-04-04
+|2022-04-05
 |Przyszłość i trendy aplikacji sieciowych
 |
 
 
 |4
-|2021-04-25
+|2022-04-26
 |Języki skryptowe
 |
 
 
 |5
-|2021-05-09
+|2022-05-10
 |Nowoczesne architektury sieciowe
 |
 
 
 |6
-|2021-05-23
+|2022-05-24
 |Omówienie wybranych frameworków
 |
 
 
 |7
-|2021-06-06
+|2022-06-07
 |Bezpieczeństwo aplikacji sieciowych
 |
 
