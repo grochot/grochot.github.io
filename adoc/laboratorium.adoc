@@ -56,17 +56,5 @@ WARNING: Kopiowanie prac innych studentów skutkuje automatycznie niezaliczeniem
 
 include::_lab-harmonogram.adoc[]
 
-// == Propozycje tematów projektów
-
-//Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem "Projekt i implementacja systemów webowych". Informację należy podać na 7-mych zajęciach (2021-04-19) i uzyskać akceptację prowadzącego.
-
-//Zakres każdego z projektów powinien obejmować realizację dwóch ekranów aplikacji webowej, interfejsu REST łączącego frontend i backend, dodatkowego interfejsu REST przeznaczonego do integracji z zewnętrznym systemem oraz warstwę utrwalania danych zrealizowaną np w oparciu o relacyjną bazę danych oraz mapowanie JPA.
-
-//Dashboard systemu inteligentnego domu:: Aplikacja prezentuje odczyty domowych mierników. Wartości odczytów przesyłane są do aplikacji za pośrednictwem interfejsu REST.
-// System sprzedaży biletów kinowych:: Aplikacja umożliwia rezerwację biletów na seans kinowy. System wystawia zewnętrzny interfejs REST umożliwiający elektroniczną weryfikację biletu.
-//Tablica ogłoszeń drobnych:: System umożliwia publikację ogłoszeń wraz z informacjami kontaktowymi. System publikuje interfejs REST pozwalający na przeszukiwanie ogłoszeń przez zewnętrzny system agregujący lub indeksujący. Nie ma konieczności integracji z żadnym systemem agregującym, interfejs może być dowolny.
-//Elektroniczny bilet miejski:: Użytkownik uzyskuje możliwość rejestracji w serwisie oraz wygenerowanie wirtualnego biletu umożliwiającego korzystanie z systemu transportu zbiorowego. System wystawia zewnętrzny interfejs pozwalający na walidację biletów przez kontrolera. Dla uproszczenia można przyjąć identyfikację z wykorzystaniem unikalnego identyfikatora UUID.
-
-'''
 
 xref:index.adoc[Powrót do strony głównej]

@@ -10,7 +10,7 @@
 
 |2
 |2022-03-14
-|Metoda Monte Carlo
+|https://grochot.github.io/lab/instrukcja_D2_pass.pdf[Monte Carlo]
 |Zadanie 1 -- dla chętnych
 |
 

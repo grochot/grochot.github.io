@@ -26,13 +26,13 @@ include::_seminarium-harmonigram.adoc[]
 |Godzina||Informacje
 
 |Wtorek, 9.35-11.05|
-|image:https://badges.gitter.im/WWW_seminarium/grupa1.svg[https://gitter.im/WWW_seminarium/grupa1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|image:https://badges.gitter.im/WWW_seminarium/grupa1.svg[link=https://gitter.im/WWW_seminarium/grupa1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
 
 |Wtorek, 11.15-12:45|
-|image:https://badges.gitter.im/WWW_seminarium/grupa2.svg[https://gitter.im/WWW_seminarium/grupa2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|image:https://badges.gitter.im/WWW_seminarium/grupa2.svg[link=https://gitter.im/WWW_seminarium/grupa2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
 
 |Środa, 9:35-11:05|
-|image:https://badges.gitter.im/WWW_seminarium/grupa3.svg[https://gitter.im/WWW_seminarium/grupa3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|image:https://badges.gitter.im/WWW_seminarium/grupa3.svg[link=https://gitter.im/WWW_seminarium/grupa3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
 
 |===
 
