@@ -11,7 +11,7 @@
 
 |2
 |2021-03-07
-|https://grochot.github.io[Obliczenia numeryczne]
+|Obliczenia numeryczne
 |
 |M.Frankowski
 
@@ -23,36 +23,36 @@
 
 |4
 |2021-04-04
-|https://grochot.github.io[Wprowadzenie do JavaScript i TypeScript]
+|Wprowadzenie do JavaScript i TypeScript
 |
 |
 
 |5
 |2021-04-11
-|https://grochot.github.io[Wprowadzenie do JavaScript i TypeScript]
+|Wprowadzenie do JavaScript i TypeScript
 |
 |
 
 |6
 |2021-04-25
-|https://grochot.github.io[Wprowadzenie od PHP i MySQL]
+|Wprowadzenie od PHP i MySQL
 |
 |
 
 |7
 |2021-05-09
-|https://grochot.github.io[Wprowadzenie do PHP i MySQL]
+|Wprowadzenie do PHP i MySQL
 |
 |
 
 |8
 |2021-05-16
-|https://grochot.github.io[Testowanie aplikacji webowych i frameworki]
+|Testowanie aplikacji webowych i frameworki
 |
 |
 |9
 |2021-05-23
-|https://grochot.github.io[Bezpieczeństwo aplikacji webowych]
+|Bezpieczeństwo aplikacji webowych
 |
 |
 |===
