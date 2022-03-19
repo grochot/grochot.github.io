@@ -16,7 +16,7 @@
 
 |3
 |2022-03-21
-|Aproksymacja i interpolacja
+|https://grochot.github.io/lab/instrukcja_D3_pass.pdf[Aproksymacja i interpolacja]
 |Zadanie 2
 |Kartkówka 1
 

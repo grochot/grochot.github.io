@@ -9,36 +9,36 @@
 |
 
 |2
-|2022-03-22
-|Technologie Webowe
+|2022-03-22(23)
+|https://grochot.github.io/www/sem2/sem2.html[Technologie Webowe]
 |
 
 |3
-|2022-04-05
+|2022-04-05(06)
 |Przyszłość i trendy aplikacji sieciowych
 |
 
 
 |4
-|2022-04-26
+|2022-04-26(27)
 |Języki skryptowe
 |
 
 
 |5
-|2022-05-10
+|2022-05-10(11)
 |Nowoczesne architektury sieciowe
 |
 
 
 |6
-|2022-05-24
+|2022-05-24(25)
 |Omówienie wybranych frameworków
 |
 
 
 |7
-|2022-06-07
+|2022-06-07(08)
 |Bezpieczeństwo aplikacji sieciowych
 |
 
