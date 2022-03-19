@@ -11,8 +11,7 @@
 |2
 |2022-03-22(23)
 |https://grochot.github.io/www/sem2/sem2.html[Technologie Webowe]
-|
-
+|1. Frontend - Vanilla JS oraz HTML5 // 2. Backend - Node.js oraz PHP
 |3
 |2022-04-05(06)
 |Przyszłość i trendy aplikacji sieciowych
