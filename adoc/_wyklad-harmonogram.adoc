@@ -17,7 +17,7 @@
 
 |3
 |2021-03-21
-|https://grochot.github.io/wyklad_2/wyklad_2.html[Podstawy aplikacji webowych i HTML]
+|https://grochot.github.io/wyklady/wyklad_2/wyklad_2.html[Podstawy aplikacji webowych i HTML]
 |https://upelagh.clickmeeting.com/wyk_ad_21_03?l=AwDjAwD4AxO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRNmAaSjA3NjpmVlAwHkomulpz80A28kZQN2ZwZ2ZGIjo0O8YKkN[Transmisja]
 |
 
