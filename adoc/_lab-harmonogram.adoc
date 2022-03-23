@@ -21,34 +21,35 @@
 |Kartkówka 1
 
 |4
-|2022-03-28
-|Szyfrowanie  
-|Zadanie 3 
+|2022-04-04
+|HTML
+|Zadanie 3
 |Kartkówka 2
 
 |5
-|2022-04-04
-|HTML
+|2022-04-11
+|CSS
 |Zadanie 4
 |
 
 |6
-|2022-04-11
-|CSS
+|2022-04-25
+|JavaScript 1
 |Zadanie 5
-|
+|Kartkówka 3
 
 |7
-|2022-04-25
-|Vanilla JS
-|Zadanie 6
+|[red]#*termin do ustalenia*#
+|[red]#JavaScript 2#
+|[red]#Zadanie 6#
 |
+
 
 |8
 |2022-05-09
 |jQuery
 |Zadanie 7
-|Kartkówka 3
+|
 
 |9
 |2022-05-16
