@@ -23,8 +23,8 @@
 
 |4
 |2021-04-04
-|https://grochot.github.io/wyklady/wyklad_3/wyklad_3.html[prowadzenie do JavaScript i CSS]
-|
+|https://grochot.github.io/wyklady/wyklad_3/wyklad_3.html[Wprowadzenie do JavaScript i CSS]
+|Transmisja
 |
 
 |5
