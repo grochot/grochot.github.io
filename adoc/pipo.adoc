@@ -54,13 +54,13 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 |===
 |Godzina||Informacje
 
-|Poniedziałek, 14:40-16:10|
+|Poniedziałek, 14:25-15:55|
 |image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa1?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
-|Poniedziałek, 16:15-17:45|
+|Poniedziałek, 15:55-17:25|
 |image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa2?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
-|Poniedziałek, 17:50-19:20|
+|Poniedziałek, 17:25-18:55|
 |image:https://badges.gitter.im/JPAI2022/grupa1.svg[link=https://gitter.im/JPAI2022/grupa3?utm_source=share-link&utm_medium=link&utm_campaign=share-link] - chat dla całej grupy
 
 |===

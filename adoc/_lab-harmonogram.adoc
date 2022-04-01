@@ -22,7 +22,7 @@
 
 |4
 |2022-04-04
-|HTML
+|https://grochot.github.io/lab/instrukcja_D4_pass.pdf[HTML]
 |Zadanie 3
 |Kartkówka 2
 
