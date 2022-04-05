@@ -22,8 +22,9 @@
 
 |4
 |2022-04-26(27)
-|https://grochot.github.io/www/sem3/sem4.html[Języki skryptowe]
-|
+|https://grochot.github.io/www/sem3/sem3.html[Języki skryptowe]
+|1. framework Django + 
+2. framework Flask
 
 
 |5
