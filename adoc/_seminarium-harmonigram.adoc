@@ -22,7 +22,7 @@
 
 |4
 |2022-04-26(27)
-|Języki skryptowe
+|https://grochot.github.io/www/sem3/sem4.html[Języki skryptowe]
 |
 
 

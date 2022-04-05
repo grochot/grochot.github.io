@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>WWW i języki skryptowe</title>
+
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  	<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="plugin/drawer/drawer.css" />
+    <link rel="stylesheet" href="plugin/pointer/pointer.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+
+  <section>
+    <h3>WWW i języki skryptowe <p><span><h1>Seminarium 3</h1></span></p></h3> <br>
+    <p>Krzysztof Grochot<br>
+    <small>grochot.github.io</small><br></p>
+    <p style ='vertical-align:text-bottom ;'><small>05-06.04.2022r.</small></p>
+  </section>
+        
+
+
+<section>
+    <h3>Tematy na kolejne seminarium</h3>
+
+    <p class="fragment">26-27.04.2022r. </p>
+    <p class="fragment"> 1. framework Django   </p>
+
+    <p class = "fragment"> 2.framework Flask </p>
+  </section>
+
+
+
+  <section>
+    <h3>Literatura temat 1</h3>
+    <ul>
+      <li><a href="https://docs.djangoproject.com/pl/4.0/intro/tutorial01/#"></a></li>
+      <li><a href="https://www.w3schools.com/django/index.php"></a></li>
+      
+    </ul>
+  </section>
+
+
+  <section>
+    <h3>Literatura temat 2</h3>
+    <li><a href=" https://flask.palletsprojects.com/en/2.1.x/quickstart/"></a></li>
+    <li><a href=" https://www.tutorialspoint.com/flask/index.htm"></a></li>
+    
+   
+  </section>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div
+      id="cgLogo"
+      style="background: url(img/logo_agh.png); position: absolute; bottom: 20px; left: 20px; width: 95px; height: 170px;">
+  </div>
+</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/drawer/drawer.js"></script>
+    <script src="plugin/pointer/pointer.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+        width: "80%",
+        height: "100%",
+        hash: true,
+        navigationMode: 'linear',
+        slideNumber: 'c/t',
+        pointer: {
+    key: "q", // key to enable pointer, default "q", not case-sensitive
+    color: "red", // color of a cursor, default "red" any valid CSS color
+    pointerSize: 12, // pointer size in px, default 12
+    alwaysVisible: false, // should pointer mode be always visible? default "false"
+    tailLength: 10, // NOT IMPLEMENTED YET!!! how long the "tail" should be? default 10
+    },
+    drawer: {
+    toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+    toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+    colors: ["#fa1e0e", "#8ac926", "#1982c4", "#ffca3a"], // (optional) list of colors avaiable (hex color codes)
+    color: "#FF0000", // (optional) color of a cursor, first color from `codes` is a default
+    pathSize: 4, // (optional) path size in px, default 4
+  },
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealDrawer, RevealPointer]
+    });
+		</script>
+	</body>
+</html>
