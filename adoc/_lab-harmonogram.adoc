@@ -28,7 +28,7 @@
 
 |5
 |2022-04-11
-|CSS
+|https://grochot.github.io/lab/instrukcja_D5_pass.pdf[CSS + HTML]
 |Zadanie 4
 |
 
