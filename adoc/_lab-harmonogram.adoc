@@ -34,9 +34,9 @@
 
 |6
 |2022-04-25
-|JavaScript 1
+|https://grochot.github.io/lab/instrukcja_D6_pass.pdf[JavaScript 1]
 |Zadanie 5
-|Kartkówka 3
+|
 
 |7
 |[red]#*termin do ustalenia*#
@@ -49,7 +49,7 @@
 |2022-05-09
 |jQuery
 |Zadanie 7
-|
+|Kartkówka 3
 
 |9
 |2022-05-16

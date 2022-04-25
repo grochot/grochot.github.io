@@ -29,8 +29,8 @@
 
 |5
 |2021-04-25
-|Wprowadzenie do JavaScript i TypeScript
-|
+|https://grochot.github.io/wyklady/wyklad_4/wyklad_4.html[Wprowadzenie do JavaScript i TypeScript]
+|https://upelagh.clickmeeting.com/wyk_ad_25_04?l=AwHkZwRjBHO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRNmBGEkAaZlAGIlpmOjAT8kZJ5mBURmZQN2ZwL1ZJ83A0O8YKkN[Transmisja]
 |
 
 |6
