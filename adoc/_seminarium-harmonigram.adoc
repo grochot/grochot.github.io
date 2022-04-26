@@ -23,14 +23,14 @@
 |4
 |2022-04-26(27)
 |https://grochot.github.io/www/sem3/sem3.html[Języki skryptowe]
-|1. framework Django 
+|1. framework Django +
 2. framework Flask
 
 
 |5
 |2022-05-10(11)
 |https://grochot.github.io/www/sem5/sem5.pdf[Nowoczesne architektury sieciowe]
-|1. Architektura monolityczna: MVC, PCMEF, XWA... 
+|1. Architektura monolityczna: MVC, PCMEF, XWA... +
 2. Mikroserwisy, SOA -- porównanie z architekturą monolityczną
 
 
