@@ -29,7 +29,7 @@
 
 |5
 |2022-05-10(11)
-|https://grochot.github.io/www/sem4/sem4.pdf[Nowoczesne architektury sieciowe]
+|https://grochot.github.io/www/sem5/sem5.pdf[Nowoczesne architektury sieciowe]
 |1. Architektura monolityczna: MVC, PCMEF, XWA... 
 2. Mikroserwisy, SOA -- porównanie z architekturą monolityczną
 
