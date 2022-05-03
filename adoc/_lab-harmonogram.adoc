@@ -39,35 +39,34 @@
 |
 
 |7
-|[red]#*termin do ustalenia*#
-|[red]#JavaScript 2#
-|[red]#Zadanie 6#
+|2022-05-09
+|JavaScript 2
+|Zadanie 6
 |
 
-
 |8
-|2022-05-09
+|2022-05-16
 |jQuery
 |Zadanie 7
 |Kartkówka 3
 
 |9
-|2022-05-16
+|2022-05-23
 |PHP I
 |Zadanie 8
 |Kartkówka 4
 
 |10
-|2022-05-23
+|2022-05-30
 |PHP II
 |Zadanie 9
 |Kartkówka 5
 
-|11
-|2022-05-30
-|Cake PHP + Projekt -- omówienie
-|Zadanie 10
-|Kartkówka 6
+|[red]#11#
+|[red]#do ustalenia#
+|[red]#Cake PHP + Projekt -- omówienie#
+|[red]#Zadanie 10#
+|[red]#Kartkówka 6#
 
 |12
 |2022-06-06
