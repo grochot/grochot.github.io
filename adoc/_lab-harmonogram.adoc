@@ -34,31 +34,31 @@
 
 |6
 |2022-04-25
-|https://grochot.github.io/lab/instrukcja_D6_pass.pdf[JavaScript 1]
+|https://grochot.github.io/lab/instrukcja_D6_pass.pdf[JavaScript I]
 |Zadanie 5
 |
 
 |7
 |2022-05-09
-|JavaScript 2
+|https://grochot.github.io/lab/instrukcja_D7_pass.pdf[JavaScript II]
 |Zadanie 6
 |
 
 |8
 |2022-05-16
-|jQuery
+|JavaScript III/PHP I
 |Zadanie 7
 |Kartkówka 3
 
 |9
 |2022-05-23
-|PHP I
+|PHP II
 |Zadanie 8
 |Kartkówka 4
 
 |10
 |2022-05-30
-|PHP II
+|PHP III
 |Zadanie 9
 |Kartkówka 5
 

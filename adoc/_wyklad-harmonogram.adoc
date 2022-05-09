@@ -35,23 +35,23 @@
 
 |6
 |2021-05-09
-|Wprowadzenie od PHP i MySQL
-|
+|https://grochot.github.io/wyklady/wyklad_6/wyklad_6.pdf[Wprowadzenie od PHP i MySQL I]
+|https://upelagh.clickmeeting.com/wyk_ad_09_05?l=AwH0BGx4ARO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRNkAQuloz84ZKWjZwD4AmV3oaAlBGHkZQN2Zwp4pQtkBRO8YKkN[Transmisja]
 |
 
 |7
-|2021-05-16
-|Wprowadzenie do PHP i MySQL
+|2021-05-23
+|Wprowadzenie do PHP i MySQL II
 |
 |
 
 |8
-|2021-05-23
+|2021-06-06
 |Testowanie aplikacji webowych i frameworki
 |
 |
 |9
-|2021-05-30
+|2021-06-13
 |Bezpieczeństwo aplikacji webowych
 |
 |
