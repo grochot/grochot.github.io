@@ -23,13 +23,13 @@
 
 |4
 |2021-04-04
-|https://grochot.github.io/wyklady/wyklad_3/wyklad_3.pdf[Wprowadzenie do CSS i JavaScript]
+|https://grochot.github.io/wyklady/wyklad_3/wyklad_3_pass.pdf[Wprowadzenie do CSS i JavaScript]
 |https://upelagh.clickmeeting.com/wyklad_04_04?l=AwD1AQt5BHO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRN4owx2omR3pmV0pwt2Z3R3AJ45pz44ZQN2ZwD5BGHkBHO8YKkN[Transmisja]
 |
 
 |5
 |2021-04-25
-|https://grochot.github.io/wyklady/wyklad_4/wyklad_4.pdf[Wprowadzenie do JavaScript i TypeScript]
+|https://grochot.github.io/wyklady/wyklad_4/wyklad_4_pass.pdf[Wprowadzenie do JavaScript i TypeScript]
 |https://upelagh.clickmeeting.com/wyk_ad_25_04?l=AwHkZwRjBHO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRNmBGEkAaZlAGIlpmOjAT8kZJ5mBURmZQN2ZwL1ZJ83A0O8YKkN[Transmisja]
 |
 
