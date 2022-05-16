@@ -46,7 +46,7 @@
 
 |8
 |2022-05-16
-|PHP I
+|https://grochot.github.io/lab/instrukcja_D8_pass.pdf[PHP I] https://grochot.github.io/lab/php_cheatsheet.pdf[Cheat sheet]
 |Zadanie 7
 |Kartkówka 3
 
