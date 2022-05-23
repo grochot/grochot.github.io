@@ -52,7 +52,7 @@
 
 |9
 |2022-05-23
-|https://grochot.github.io/lab/instrukcja_D8_pass.pdf[PHP II]
+|https://grochot.github.io/lab/instrukcja_D9_pass1.pdf[PHP II]
 |Zadanie 8
 |Kartkówka 4
 
