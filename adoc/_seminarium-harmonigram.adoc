@@ -35,14 +35,16 @@
 
 
 |6
-|2022-06-07(08)
+|2022-06-07 + 
+2022-06-01 (grupa III)
 |Omówienie wybranych frameworków JS
 |1. Angular +
 2. React
 
 
 |7
-|2022-06-14(15)
+|2022-06-08 (grupa III) +
+2022-06-14
 |Bezpieczeństwo aplikacji sieciowych (grupa III, reszta debata)
 |1. Najpopularniejsze zagrożenia aplikacji webowych +
 2. Co zrobić po incydencie? (gdzie zgłosić, aspekty formalno-prawne)

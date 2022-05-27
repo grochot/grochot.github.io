@@ -41,7 +41,7 @@
 
 |7
 |2021-05-23
-|Wprowadzenie do PHP i MySQL II
+|https://grochot.github.io/wyklady/wyklad_7/wyklad_7.pdf[Wprowadzenie do PHP i MySQL II]
 |https://upelagh.clickmeeting.com/wyk_ad_23_05?l=AwH5ZGD2BHO8YKkNqTIvpUIvM0OhqUHhpaSbYzA5DUjgsROLMJ1fMz1aLaZtITIvpUIvM0O8YKkNDUjgsRNlBQDjZGEkpmL5AQump3OlAT8ko3AlZQN2ZwuiAGx2pxO8YKkN[Transmisja]
 |
 
