@@ -58,7 +58,7 @@
 
 |10
 |2022-05-30
-|Cake PHP + Projekt
+|https://grochot.github.io/lab/instrukcja_D10_pass.pdf[Cake PHP + Projekt]
 |Zadanie 9
 |Kartkówka 5
 
