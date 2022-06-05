@@ -46,12 +46,12 @@
 |
 
 |8
-|2021-06-06
+|2021-06-13
 |Testowanie aplikacji webowych i frameworki
 |
 |
 |9
-|2021-06-13
+|2021-06-20
 |Bezpieczeństwo aplikacji webowych
 |
 |
