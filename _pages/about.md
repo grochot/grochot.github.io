@@ -7,7 +7,7 @@ subtitle: Institute of Electronics, AGH University of Krakow
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>C-2, II p., pok. 204</p>
     <p>AGH University of Krakow</p>
