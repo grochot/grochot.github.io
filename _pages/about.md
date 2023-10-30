@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Institute of Electronics, AGH University of Krakow
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>C-2, II p., pok. 204</p>
+    <p>AGH University of Krakow</p>
+    <p>al. Mickiewicza 30</p>
+    <p>30-059 Kraków</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
