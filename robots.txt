@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://grochot.github.io//sitemap.xml
+Sitemap: https://grochot.github.io/sitemap.xml
