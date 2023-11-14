@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 nav: about
-subtitle: **Lecturer** @ <a href=https://www.elektronika.agh.edu.pl>Institute of Electronics</a>, AGH University of Krakow
+subtitle: Lecturer at Institute of Electronics, AGH University of Krakow
 
 profile:
   align: right
