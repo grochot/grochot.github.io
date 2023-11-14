@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Krzysztof
+first_name: dr Krzysztof
 middle_name: 
 last_name: Grochot
 email: grochot@agh.edu.pl
@@ -106,7 +106,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-W9DED7YERV
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -161,12 +161,14 @@ external_sources:
 collections:
   news:
     defaults:
-      layout: post
+      layout: page
     output: true
     permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
+
+news_limit:10
 
 announcements:
   enabled: true
@@ -276,11 +278,11 @@ scholar:
 
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibliography_template: publication
   bibtex_filters: [latex, smallcaps, superscript]
+  sort_by: year
+  order: descending
+  reference_tagname: div
 
   replace_strings: true
   join_strings: true
@@ -290,8 +292,6 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
