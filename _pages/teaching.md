@@ -20,23 +20,19 @@ description: classes, workshops, and teaching material
         </span>
       </div>
     </div>
-    
     <ul class="card-text font-weight-light list-group list-group-flush">
-      
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 1: Data Analysis - Pandas
           </div>
           <div class="col-sm-3">
-            
             <a href="https://grochot.github.io/assets/lecture/pandas_lecture.html" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://grochot.github.io/teaching/" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            <a href="https://grochot.github.io/teaching/" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
+            <a href="https://colab.research.google.com/drive/1VpK-ZQFstYGFT7O031Oc6Gx7QzOxudqF?usp=drive_link" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
           </div>
         </div>
       </li>
-      
      <!--  <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
@@ -64,7 +60,6 @@ description: classes, workshops, and teaching material
           </div>
         </div>
       </li> -->
-      
     </ul>
     
   </div>
