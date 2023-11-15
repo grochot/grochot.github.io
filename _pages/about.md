@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: about
 subtitle: Lecturer at Institute of Electronics, AGH University of Krakow
 
 profile:
