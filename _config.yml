@@ -116,8 +116,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: grochot # blog_name will be displayed in your blog page
+blog_name: News # blog_name will be displayed in your blog page
 blog_nav_title: news # your blog must have a title for it to be displayed in the nav bar
+blog_nav: false
 blog_description: science and teaching news 
 permalink: /blog/:year/:title/
 
