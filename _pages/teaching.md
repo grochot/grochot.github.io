@@ -40,24 +40,20 @@ description: classes, workshops, and teaching material
             Lecture 20: Reinforcement Learning as Inference in GM (part 2)
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture20-RL2.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f809e621-14e6-42e3-ae2f-ab9501503ad2" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec20_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
           </div>
         </div>
       </li>
-      
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 27: Elements of Meta-Learning
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture27-elements-of-meta-learning-maruan.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c0c884e-ce3f-4779-9940-abaa01300ae1" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            
           </div>
         </div>
       </li> -->
@@ -97,24 +93,20 @@ description: classes, workshops, and teaching material
             Lecture 20: Reinforcement Learning as Inference in GM (part 2)
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture20-RL2.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f809e621-14e6-42e3-ae2f-ab9501503ad2" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec20_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
           </div>
         </div>
       </li>
-      
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 27: Elements of Meta-Learning
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture27-elements-of-meta-learning-maruan.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c0c884e-ce3f-4779-9940-abaa01300ae1" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            
           </div>
         </div>
       </li> -->
@@ -143,35 +135,28 @@ description: classes, workshops, and teaching material
           </div>
           <div class="col-sm-3">
             <a href="https://grochot.github.io/assets/lecture/pandas_lecture.html" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
-            <a href="https://grochot.github.io/teaching/" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
             <a href="https://colab.research.google.com/drive/1VpK-ZQFstYGFT7O031Oc6Gx7QzOxudqF?usp=drive_link" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
           </div>
         </div>
       </li>
-     <!--  <li class="list-group-item">
+     <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Lecture 20: Reinforcement Learning as Inference in GM (part 2)
+            Lecture 2: Linux - short introduction
           </div>
           <div class="col-sm-3">
-            
-            <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture20-RL2.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
-            <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f809e621-14e6-42e3-ae2f-ab9501503ad2" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec20_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
+            <a href="https://grochot.github.io/assets/lecture/linux.html" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
           </div>
         </div>
       </li>
-      
-      <li class="list-group-item">
+     <!-- <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 27: Elements of Meta-Learning
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture27-elements-of-meta-learning-maruan.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c0c884e-ce3f-4779-9940-abaa01300ae1" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            
           </div>
         </div>
       </li> -->
@@ -193,42 +178,36 @@ description: classes, workshops, and teaching material
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <!-- <li class="list-group-item">
+      <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Lecture 1: Data Analysis - Pandas
+            Lab 5: Image analysis 
           </div>
           <div class="col-sm-3">
-            <a href="https://grochot.github.io/assets/lecture/pandas_lecture.html" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
-            <a href="https://grochot.github.io/teaching/" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            <a href="https://colab.research.google.com/drive/1VpK-ZQFstYGFT7O031Oc6Gx7QzOxudqF?usp=drive_link" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
+            <a href="https://grochot.github.io/assets/labs/image_analysis.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
           </div>
         </div>
-      </li> -->
+      </li>
      <!--  <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 20: Reinforcement Learning as Inference in GM (part 2)
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture20-RL2.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f809e621-14e6-42e3-ae2f-ab9501503ad2" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec20_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
           </div>
         </div>
       </li>
-      
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
             Lecture 27: Elements of Meta-Learning
           </div>
           <div class="col-sm-3">
-            
             <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture27-elements-of-meta-learning-maruan.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
             <a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c0c884e-ce3f-4779-9940-abaa01300ae1" target="_blank" rel="noopener noreferrer">video</a>&nbsp;
-            
           </div>
         </div>
       </li> -->
