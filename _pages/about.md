@@ -2,24 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Assistant professor</a> at AGH University of Kraków, Poland
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Institute of Electronics</p>
+    <p>AGH University of Krakow</p>
+    <p>room 204, blg.C2</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am assistant Professor at the Institute of Electronics, Department of Computer Science, Electronics and Telecommunications, AGH University of Krakow.
+I am a graduate of the Interdisciplinary Mathematical and Natural Science Studies at the Faculty of Physics, Astronomy and Applied Computer Science, Jagiellonian University, and the Interdisciplinary Environmental Doctoral Studies "Physical, Chemical and Biophysical Foundations of Modern Technologies and Materials Engineering" (FCB) at the Faculty of Physics and Applied Computer Science, AGH, where I defended my PhD thesis in 2023.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Professionally, I am associated with the Magnetic Multilayer Systems and Spin Electronics Team, where I study thin-film magnetic systems by electrical methods, lithogaphics of spintronic nanodevices, and programming and data analysis. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time, I am engaged in activities popularizing natural sciences, including the organization of the Natural Science Competition 'Świetlik'. 
+
+As part of my teaching activities, I teach classes and seminars on web application programming, basics of Python programming and data science. 
+
+I am interested in programming, technological innovations and economics.
