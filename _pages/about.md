@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>dr Krzysztof Grochot</p>
     <p>Institute of Electronics</p>
     <p>AGH University of Krakow</p>
     <p>room 204, blg.C2</p>
